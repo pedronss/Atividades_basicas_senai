@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Alike', serif;
+}
+body{
+    background-color: #343330;
+    color: white;
+}
+header{
+    background-color: #7ea16b;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 34px;
+    gap: 90px;
+}
+.nav-menu{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+}
+.nav-input{
+    height: 30px;
+    padding-right: 300px;
+    padding-left: 20px;
+    background-color: #D9D9D9;
+    border: 0px solid black;
+}
+.navbar img {
+    display:flex;
+    float: initial;
+    width:160px;
+    padding:0px;
+    margin:0px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.tabela-carrinho{
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+}
+.resumo-title h1{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+}
+.resumo-title{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.resumo-title img{
+    width: 20px;
+    height: 20px;
+}
+.total{
+    background-color: #D2FFDC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 160px;
+    height: 103px;
+}
+.total p {
+    font-size: 10px;
+    color: #138900;
+}
+.total h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #138900;
+}
+.resumo{
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;  
+    flex-direction: column;
+    color: black;
+    margin-top: 30px;
+    width: 277px;
+    height: 381px;
+    margin-left: 50px;
+}
+.botoes{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin-top:50px ;
+}
+.pagar button{
+    height: 36px;
+    width: 160px;
+    color: white;
+    background-color: #7EA16B;
+    border: none;
+    cursor: pointer;
+}
+.pagar button:hover{
+    background-color: #5d7750;
+}
+.continuar button{
+    height: 36px;
+    width: 160px; 
+    border: 1px solid #7EA16B;
+    color: #7EA16B;
+    background-color: transparent;
+    cursor: pointer;
+}
+.continuar button:hover{
+    border: 1px solid #698659;
+    color: #5c754f;
+}
+table{
+    color: black;
+    border: none ;
+}
+table > button{
+     color: black;
+}
+.carrinho{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom:10px;
+    margin-left: 20px;
+    margin-right:20px ;
+    flex-direction: column;
+}
+.carrinho img{
+    width: 100px;
+}
+.carrinho-item{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin-bottom: 20px;
+}
+.carrinho-item p{
+    margin: 19px;
+}
+.carrinho-item a img{
+    width: 10px;
+    margin-top: 20px;
+}
+.lixeira a img{
+    width: 19px;
+}
+.item-nome{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.vazio {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+}
+.vazio button{
+    margin-top: 20px;
+    height: 36px;
+    width: 190px;
+    color: white;
+    background-color: #7EA16B;
+    border: none;
+    cursor: pointer;
+}
+.vazio button:hover{
+    background-color: #5d7750;
+    color: rgb(207, 207, 207);
+}
+.delete{
+    display: flex;
+    justify-content: center;
+}
+.delete a{
+    margin-top: 10px;
+    padding: 10px 60px;
+    color: white;
+    background-color: #7EA16B;
+    border: none;
+    cursor: pointer;
+}
